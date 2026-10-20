@@ -1,0 +1,188 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050816">
+  <meta name="description" content="Submit an order enquiry for the InfraNova concept.">
+  <title>Order / Enquiry | InfraNova</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head><body>
+  <canvas id="starfield" aria-hidden="true"></canvas>  <header class="site-header">
+    <div class="nav-wrap">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">IN</span>
+        <span>INFRA<span class="gradient-text">NOVA</span></span>
+      </a>  <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" type="button">☰</button>
+
+  <nav class="nav-links" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="problem.html">Problem</a>
+    <a href="solution.html">Solution</a>
+    <a href="systems.html">Systems</a>
+    <a href="about.html">About</a>
+    <a href="order.html" class="nav-order">Order ↗</a>
+  </nav>
+</div>
+
+  </header>  <main>
+    <section class="page-hero container reveal">
+      <p class="kicker">INFRANOVA / ENQUIRIES</p>  <h1 class="page-title">
+    Let's build the<br>
+    <span class="gradient-text">next possibility.</span>
+  </h1>
+
+  <p class="lead">
+    Interested in InfraNova? Submit your details and enquiry.
+    Our proposed concept and its implementation requirements
+    can then be discussed.
+  </p>
+</section>
+
+<section class="section container">
+  <div class="form-wrap reveal">
+
+    <div class="content-panel">
+      <p class="kicker">PROJECT ENQUIRY</p>
+      <h2>Start a conversation.</h2>
+
+      <p>
+        Share your contact details and the number of units
+        you wish to enquire about. This form submits an enquiry;
+        it does not confirm a purchase or guarantee product availability.
+      </p>
+
+      <div class="price">
+        ₹5,000 <span>per unit</span>
+      </div>
+
+      <div class="notice">
+        InfraNova is presented as a technology concept.
+        Product availability, specifications, and delivery
+        would need to be confirmed separately.
+      </div>
+    </div>
+
+    <form
+      action="https://formsubmit.co/tamscserd@gmali.com"
+      method="POST"
+      class="order-form">
+
+      <input type="hidden" name="_subject" value="New InfraNova Enquiry">
+
+      <input type="hidden" name="_template" value="table">
+
+      <input type="hidden" name="_captcha" value="true">
+
+      <input type="hidden" name="_next" value="thankyou.html">
+
+      <div class="form-grid">
+
+        <div class="field">
+          <label for="name">Full Name *</label>
+          <input
+            id="name"
+            name="Full Name"
+            type="text"
+            placeholder="Enter your full name"
+            autocomplete="name"
+            required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email Address *</label>
+          <input
+            id="email"
+            name="Email"
+            type="email"
+            placeholder="you@example.com"
+            autocomplete="email"
+            required>
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone Number</label>
+          <input
+            id="phone"
+            name="Phone Number"
+            type="tel"
+            placeholder="Enter your phone number"
+            autocomplete="tel">
+        </div>
+
+        <div class="field">
+          <label for="organisation">Organisation</label>
+          <input
+            id="organisation"
+            name="Organisation"
+            type="text"
+            placeholder="School, company, or organisation">
+        </div>
+
+        <div class="field">
+          <label for="quantity">Number of Units *</label>
+          <input
+            id="quantity"
+            name="Quantity"
+            type="number"
+            min="1"
+            max="100"
+            value="1"
+            required>
+        </div>
+
+        <div class="field">
+          <label for="interest">Enquiry Type *</label>
+          <select id="interest" name="Enquiry Type" required>
+            <option value="">Select an option</option>
+            <option value="Project information">Project information</option>
+            <option value="Prototype enquiry">Prototype enquiry</option>
+            <option value="Collaboration">Collaboration</option>
+            <option value="School or competition project">School or competition project</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="field full">
+          <label for="message">Your Message *</label>
+          <textarea
+            id="message"
+            name="Message"
+            rows="5"
+            placeholder="Tell us what you would like to know about InfraNova..."
+            required></textarea>
+        </div>
+
+      </div>
+
+      <div class="total-box">
+        <span>Estimated enquiry total</span>
+        <strong id="total-price">₹5,000</strong>
+        <small>₹5,000 × selected quantity. This is an estimate, not a confirmed quotation.</small>
+      </div>
+
+      <button type="submit" class="btn">
+        Submit Enquiry ↗
+      </button>
+
+      <p class="form-note">
+        By submitting this form, you agree to be contacted
+        about your enquiry. Avoid including passwords or
+        other sensitive personal information.
+      </p>
+
+    </form>
+
+  </div>
+</section>
+
+  </main>  <footer class="site-footer">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">IN</span>
+      <span>INFRA<span class="gradient-text">NOVA</span></span>
+    </a><p>Intelligent ideas for safer infrastructure.</p>
+<small>© <span data-current-year>2026</span> InfraNova. Concept and prototype presentation.</small>
+
+  </footer>
+</body>
+  </html>
